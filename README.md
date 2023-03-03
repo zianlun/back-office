@@ -1,7 +1,5 @@
 # back-office
 通用的后台管理系统
-# back-office-ms
-
 ## Project setup
 ```
 npm install
