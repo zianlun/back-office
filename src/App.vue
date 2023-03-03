@@ -1,28 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang='less'>
+/* 把这些标签的内边距和外边距重置为0 */
+body,div,dl,dt,dd,ul,ol,h1,h2,h3,h4,
+h5,h6,pre,form,fieldset,legend,input,textarea,button,
+p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
 }
+
 </style>
